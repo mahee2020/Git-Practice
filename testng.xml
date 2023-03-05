@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="airline.AirlineTest4"/>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Lenovo/RestAssuredTest/src/test/java/airline/AirlineTest3.java">
+        <classes>
+            <class name="airline.AirlineTest3">
+                <methods>
+                    <include name="createAirline"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
